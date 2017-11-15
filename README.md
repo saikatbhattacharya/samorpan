@@ -2,7 +2,7 @@ Carrefour UAE assignment
 ===
 
 ```sh
-yarn instal
+yarn install
 ```
 ```sh
 yarn start
