@@ -14,13 +14,6 @@
     "lint:client": "eslint --ext .js --ext .jsx ./src/client/",
     "lint:test": "eslint --ext .js --ext .jsx ./test/unit/",
     "lint": "npm run lint:client && npm run lint:test",
-    "pretest": "rimraf coverage && npm run lint",
-    "test": "cross-env NODE_ENV=test NODE_PATH=./src/client nyc --reporter=html --reporter=text mocha",
-    "test:watch": "npm run test; chokidar './src/client/**/*.{js,jsx}' './test/unit/**/*.{js,jsx}' -c 'npm run test'",
-    "selenium": "selenium-standalone install --config=./selenium.config.js",
-    "pretest:feature": "rimraf reports/* & rimraf logs/selenium-debug.log && npm run selenium",
-    "test:feature": "nightwatch",
-    "posttest:feature": "node html-cucumber-reports.js",
     "pm2:update": "./node_modules/.bin/pm2 update"
   },
   "repository": {
