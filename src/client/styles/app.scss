@@ -54,6 +54,25 @@ html {
 .panel-body{
 	padding: 10% 20% 10% 20% !important;
 }
+.topImage{
+	display: inline-block;
+	width: 50%;
+}
+.topSearch{
+	display: inline-block;
+	width: 50%;
+	margin-right: 0;
+}
+#topLogo{
+	width: 50%;
+}
+.itemDesc{
+	text-align: left;
+	margin-top: 10px;
+}
+.bottomLogo{
+	border: 0.5px solid #d8d4d4;
+}
 input[type=search] {
 	outline: none;
 	float: right;
@@ -76,7 +95,7 @@ input[type=search] {
 }
 
 input[type=search]:focus {
-	width: 15%;
+	width: 35%;
 	padding-left: 32px;
 	color: #000;
 	background-color: aliceblue;

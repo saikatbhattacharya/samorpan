@@ -6,8 +6,10 @@ require('styles/app.scss');
 
 const BottomPane = props => (
   <div className="itemDiv">
-    <img src={CarrefourLogo} alt="logo" />
-    <div>
+    <div className="bottomLogo">
+      <img src={CarrefourLogo} alt="logo" />
+    </div>
+    <div className="itemDesc">
       <p>{props.itemName}</p>
       <p className="itemprice">{props.price}</p>
     </div>

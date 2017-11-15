@@ -50,9 +50,17 @@ module.exports = {
         }),
       },
       {
-        test: /\.(png|svg|jpg|gif|woff|woff2)$/,
+        test: /\.(png|jpg|gif|ico|xml)$/,
         exclude: /node_modules/,
-        use: 'url-loader',
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 100000,
+              fallback: 'file-loader'
+            },
+          },
+        ],
       },
     ],
   },
