@@ -8,7 +8,7 @@ require('styles/app.scss');
 const staticItems = [
   {
     itemName: 'iPhone 6s black',
-    price: 'AED 1000',
+    price: 'AED 100',
   },
   {
     itemName: 'iPhone 7 black',
