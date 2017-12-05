@@ -5,7 +5,7 @@
   "scripts": {
     "prestart": "npm run start:pm2",
     "start:pm2": "./node_modules/.bin/pm2 startOrReload src/server/ecosystem.json",
-    "start": "cross-env NODE_ENV=dev webpack-dev-server --open",
+    "start": "cross-env NODE_ENV=prod webpack-dev-server --open",
     "prebuild": "./node_modules/.bin/pm2 stop src/server/ecosystem.json",
     "build": "webpack -p --progress --colors",
     "serve": "./node_modules/.bin/pm2 startOrReload src/server/ecosystem.json && npm run logs",
