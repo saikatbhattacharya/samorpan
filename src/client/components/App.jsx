@@ -1,12 +1,12 @@
 import React from 'react';
-import TopHeader from './Topbar';
 import PricingComponent from './PricingComponent';
+import AboutUs from './About';
 
 require('styles/app.scss');
 
 const App = () => (
   <div className="container">
-    <TopHeader />
+    <AboutUs />
     <PricingComponent />
   </div>
 );
