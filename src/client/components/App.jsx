@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import SigninForm from './SigninForm';
 import TopHeader from './Topbar';
 import BottomPane from './BottomPane';
+import PricingComponent from './PricingComponent';
 
 require('styles/app.scss');
 
@@ -14,6 +15,7 @@ const App = props => (
       authenticate={props.authenticate}
     />
     <BottomPane />
+    <PricingComponent />
   </div>
 );
 
