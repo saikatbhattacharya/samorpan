@@ -18,7 +18,7 @@ body {
 
 $icon-size: 3rem;
 $icon-color: #D8D8D8;
-$main-color: #F85E6A;
+$main-color: #6AC9D3;
 
 
 .pricing-table {
@@ -38,7 +38,7 @@ $main-color: #F85E6A;
             cursor: pointer;
             box-shadow: 0px 2px 30px rgba(0,0,0,0.3);
             transform: scale(1.04);
-            i, h1, span, b {
+            i, h4, span, b {
                 color: $main-color;
             }
             .front {
@@ -62,7 +62,7 @@ $main-color: #F85E6A;
             color: $icon-color;
             transition: all .3s ease-in-out;
         }
-        h1 {
+        h4 {
             margin: 10px 0;
             color: #212121;
             transition: all .3s ease-in-out;
@@ -106,6 +106,7 @@ $main-color: #F85E6A;
                     left: 0;
                     right: 0;
                     width: 150px;
+                    border-radius: 50px;
                     margin: auto;
                     text-transform: uppercase;
                     transform: translateY(20px);

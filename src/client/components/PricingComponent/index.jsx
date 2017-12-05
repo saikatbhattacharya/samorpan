@@ -4,11 +4,11 @@ require('styles/pricing.scss');
 
 const PricingComponent = () => (
   <div>
-    <h1 className="demo-title">Subscriptions</h1>
+    <h4 className="demo-title">Subscriptions</h4>
 
     <div className="pricing-table">
       <div className="pricing-option">
-        <h1>Pacakge 1</h1>
+        <h4>Pacakge 1</h4>
         <hr />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
@@ -25,14 +25,14 @@ const PricingComponent = () => (
           </div>
           <div className="back">
             <a href="abc.com" className="button">
-              Purchase now
+              Buy now
             </a>
           </div>
         </div>
       </div>
 
       <div className="pricing-option">
-        <h1>Pacakge 2</h1>
+        <h4>Pacakge 2</h4>
         <hr />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
@@ -49,14 +49,14 @@ const PricingComponent = () => (
           </div>
           <div className="back">
             <a href="abc.com" className="button">
-              Purchase now
+              Buy now
             </a>
           </div>
         </div>
       </div>
 
       <div className="pricing-option">
-        <h1>Pacakge 3</h1>
+        <h4>Pacakge 3</h4>
         <hr />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
@@ -73,14 +73,14 @@ const PricingComponent = () => (
           </div>
           <div className="back">
             <a href="abc.com" className="button">
-              Purchase now
+              Buy now
             </a>
           </div>
         </div>
       </div>
 
       <div className="pricing-option">
-        <h1>Pacakge 4</h1>
+        <h4>Pacakge 4</h4>
         <hr />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
@@ -97,7 +97,7 @@ const PricingComponent = () => (
           </div>
           <div className="back">
             <a href="abc.com" className="button">
-              Purchase now
+              Buy now
             </a>
           </div>
         </div>
