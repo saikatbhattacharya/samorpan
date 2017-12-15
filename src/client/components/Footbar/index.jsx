@@ -1,11 +1,35 @@
 import React from 'react';
 
-require('styles/app.scss');
-require('styles/top.scss');
-// const Logo = require('images/logo.png');
-
+require('styles/footer.scss');
 
 const Footbar = () => (
-  <div id="footer">Footer yaha ayega</div>
+  <div className="footer">
+    <div className="container">
+      <a href="#abc">
+        <i className="fa fa-twitch fa-3x fa-fw" />
+      </a>
+      <a href="#abc">
+        <i className="fa fa-facebook fa-3x fa-fw" />
+      </a>
+      <a href="#abc">
+        <i className="fa fa-twitter fa-3x fa-fw" />
+      </a>
+      <a href="#abc">
+        <i className="fa fa-youtube-play fa-3x fa-fw" />
+      </a>
+      <a href="#abc">
+        <i className="fa fa-rss fa-3x fa-fw" />
+      </a>
+      <a href="#abc">
+        <i className="fa fa-vine fa-3x fa-fw" />
+      </a>
+      <a href="#abc">
+        <i className="fa fa-flickr fa-3x fa-fw" />
+      </a>
+      <a href="#abc">
+        <i className="fa fa-linkedin fa-3x fa-fw" />
+      </a>
+    </div>
+  </div>
 );
 export default Footbar;
