@@ -58,7 +58,7 @@ NavItem {
 	margin-bottom: 0;
 }
 .panel-body{
-	padding: 10% 20% 10% 20% !important;
+	//padding: 10% 20% 10% 20% !important;
 }
 .topImage{
 	display: inline-block;
@@ -113,4 +113,12 @@ input:-moz-placeholder {
 }
 input::-webkit-input-placeholder {
 	color: transparent;
+}
+.navbar-collapse{
+    border-color: #e7e7e7;
+    background: black;
+    color: white;
+}
+.navbar-default .navbar-nav>li>a {
+     color: white; 
 }

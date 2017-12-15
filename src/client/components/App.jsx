@@ -1,17 +1,14 @@
 import React from 'react';
-import PricingComponent from './PricingComponent';
-import AboutUs from './About';
 import Topbar from './Topbar';
+import FootBar from './Footbar';
 
 require('styles/app.scss');
 
 const App = () => (
   <div>
     <Topbar />
-    <div className="container">
-      <AboutUs />
-      <PricingComponent />
-    </div>
+
+    <FootBar />
   </div>
 );
 
