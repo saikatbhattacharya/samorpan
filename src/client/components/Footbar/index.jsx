@@ -6,9 +6,6 @@ const Footbar = () => (
   <div className="footer">
     <div className="container">
       <a href="#abc">
-        <i className="fa fa-twitch fa-3x fa-fw" />
-      </a>
-      <a href="#abc">
         <i className="fa fa-facebook fa-3x fa-fw" />
       </a>
       <a href="#abc">
@@ -16,18 +13,6 @@ const Footbar = () => (
       </a>
       <a href="#abc">
         <i className="fa fa-youtube-play fa-3x fa-fw" />
-      </a>
-      <a href="#abc">
-        <i className="fa fa-rss fa-3x fa-fw" />
-      </a>
-      <a href="#abc">
-        <i className="fa fa-vine fa-3x fa-fw" />
-      </a>
-      <a href="#abc">
-        <i className="fa fa-flickr fa-3x fa-fw" />
-      </a>
-      <a href="#abc">
-        <i className="fa fa-linkedin fa-3x fa-fw" />
       </a>
     </div>
   </div>
