@@ -4,6 +4,16 @@
     margin: 0 !important;
     width: 100% !important;
 }
+.home-row .col-md-8{
+padding-right: 0;
+}
+.aboutus-row .col-md-8{
+padding-left: 0;
+}
+
+.main-container{
+  padding: 0;
+}
 #topRightPic{
     width: 100%;
 }
@@ -14,9 +24,12 @@ p{
     color: black;
 }
 .aboutUs{
-    font-size: large;
+    font-size: medium;
 }
 .aboutUsHeader{
     color: black;
     text-align: left;
+}
+.home-row .col-md-8 {
+padding-right: 0;
 }
