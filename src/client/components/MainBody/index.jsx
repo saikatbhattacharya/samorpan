@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid, Row, Col, Button } from 'react-bootstrap';
 import logo from 'images/logo.png';
+import map from 'images/map.png';
 import topPic from 'images/plce-001.jpg';
 
 require('styles/mainbody.scss');
@@ -28,6 +29,10 @@ const MainBody = () => (
         </p>
         <Button bsStyle="primary">Know More</Button>
       </Col>
+    </Row>
+    <Row className="show-grid contacts-row">
+      <Col xs={12} md={4}>Contacts</Col>
+      <Col xs={12} md={8}><img id="topRightPic" src={map} alt="topPic" /></Col>
     </Row>
   </Grid>
 );
