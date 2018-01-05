@@ -31,7 +31,10 @@
     "lodash": "^4.17.4",
     "pm2": "^2.6.1",
     "pug": "^2.0.0-rc.2",
-    "react-bootstrap": "^0.31.5"
+    "react-bootstrap": "^0.31.5",
+    "react-google-maps": "^9.4.4",
+    "react-icons": "^2.2.7",
+    "recompose": "^0.26.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

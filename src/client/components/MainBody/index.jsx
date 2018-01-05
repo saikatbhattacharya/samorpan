@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid, Row, Col, Button } from 'react-bootstrap';
 import logo from 'images/logo.png';
+import aboutus from 'images/about-us.jpg';
 import map from 'images/map.png';
 import topPic from 'images/plce-001.jpg';
 
@@ -13,7 +14,7 @@ const MainBody = () => (
       <Col xs={12} md={8}><img id="topRightPic" src={topPic} alt="topPic" /></Col>
     </Row>
     <Row className="show-grid aboutus-row">
-      <Col xs={12} md={8}><img id="topRightPic" src={topPic} alt="topPic" /></Col>
+      <Col xs={12} md={8}><img id="topRightPic" src={aboutus} alt="topPic" /></Col>
       <Col xs={12} md={4}>
         <hr />
         <h2 className="aboutUsHeader">About Us</h2>
