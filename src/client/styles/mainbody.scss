@@ -33,4 +33,28 @@ p{
 }
 .home-row .col-md-8 {
 padding-right: 0;
+
+}
+.home-row .col-xs-12 {
+padding-left: 0;
+}
+.aboutUs .col-xs-12 {
+padding-right: 0;
+}
+.topicRightPic{
+   position: relative; 
+}
+
+.rightText{
+    bottom: 0;
+    position: absolute;
+    background-color: #E78898;
+    padding: 75px;
+    color: #FFF6C3;
+}
+.mapText{
+    position: absolute;
+    background-color: #E78898;
+    padding: 75px;
+    color: #FFF6C3;
 }

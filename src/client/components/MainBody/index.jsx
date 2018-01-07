@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid, Row, Col, Button } from 'react-bootstrap';
 import logo from 'images/logo.png';
 import aboutus from 'images/about-us.jpg';
-import map from 'images/map.png';
+import map from 'images/map2.png';
 import topPic from 'images/plce-001.jpg';
 
 require('styles/mainbody.scss');
@@ -11,7 +11,10 @@ const MainBody = () => (
   <Grid className="main-container">
     <Row className="show-grid home-row">
       <Col xs={12} md={4}><img id="mainLogo" src={logo} alt="logo" /></Col>
-      <Col xs={12} md={8}><img id="topRightPic" src={topPic} alt="topPic" /></Col>
+      <Col xs={12} md={8} className="topicRightPic">
+        <div className="rightText">lorem ipsum</div>
+        <img id="topRightPic" src={topPic} alt="topPic" />
+      </Col>
     </Row>
     <Row className="show-grid aboutus-row">
       <Col xs={12} md={8}><img id="topRightPic" src={aboutus} alt="topPic" /></Col>
@@ -33,7 +36,10 @@ const MainBody = () => (
     </Row>
     <Row className="show-grid contacts-row">
       <Col xs={12} md={4}>Contacts</Col>
-      <Col xs={12} md={8}><img id="topRightPic" src={map} alt="topPic" /></Col>
+      <Col xs={12} md={8}>
+        <div className="mapText">lorem ipsum</div>
+        <img id="topRightPic" src={map} alt="topPic" />
+      </Col>
     </Row>
   </Grid>
 );
