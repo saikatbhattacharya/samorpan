@@ -31,7 +31,7 @@ const MainBody = () => (
             are remote control in your hands. Allow us to do what you want to do for your
             parents or loved ones. You are the soul, we will be the body.
         </p>
-        <Button bsStyle="primary">Know More</Button>
+        <Button href="/about" bsStyle="primary">Know More</Button>
       </Col>
     </Row>
     <Row className="show-grid contacts-row">

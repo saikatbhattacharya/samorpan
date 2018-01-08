@@ -40,7 +40,7 @@ app.options('*', (req, res) => {
 
 app.set('view engine', 'pug');
 
-app.get('/', (req, res) => {
+app.get('*', (req, res) => {
   res.render(path.join(__dirname, 'views/index.pug'));
 });
 

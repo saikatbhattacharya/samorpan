@@ -1,11 +1,13 @@
 /* eslint global-require: 0 */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route } from 'react-router';
+import { Router, Route, Switch } from 'react-router';
 import { Provider } from 'react-redux';
 import { AppContainer } from 'react-hot-loader';
 import createBrowserHistory from 'history/createBrowserHistory';
 import ApplicationContainer from 'containers/AppContainer';
+import AboutUs from 'containers/aboutUs';
+import PricingPage from 'containers/PricingPage';
 import configureStore from 'store';
 
 require('es6-promise').polyfill();
@@ -15,12 +17,16 @@ const history = createBrowserHistory();
 const initialStoreState = {};
 const store = configureStore(initialStoreState);
 
-const renderApp = (Component) => {
+const renderApp = () => {
   ReactDOM.render(
     <AppContainer>
       <Provider store={store}>
         <Router history={history} >
-          <Route component={Component} path="/" />
+          <Switch>
+            <Route exact path="/" component={ApplicationContainer} />
+            <Route path="/about" component={AboutUs} />
+            <Route path="/packages" component={PricingPage} />
+          </Switch>
         </Router >
       </Provider>
     </AppContainer>
@@ -28,7 +34,7 @@ const renderApp = (Component) => {
   );
 };
 
-renderApp(ApplicationContainer);
+renderApp();
 
 if (module.hot) {
   module.hot.accept('./containers/AppContainer.jsx', () => {
