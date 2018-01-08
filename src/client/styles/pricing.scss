@@ -10,11 +10,16 @@ body {
     background: #eee;
 }
 .demo-title {
+    margin-top: 40px;
     text-align:center;
     font-size: 3rem;
     margin-bottom: 50px;
 }
-
+.demo-subtitle {
+    text-align:center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
 
 $icon-size: 3rem;
 $icon-color: #D8D8D8;

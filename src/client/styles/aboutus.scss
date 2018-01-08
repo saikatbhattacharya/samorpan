@@ -1,0 +1,48 @@
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,300italic,400italic,600,700,600italic,700italic);
+
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 1;
+    padding: 20px;
+    height: 100%;
+    background: #eee;
+}
+.demo-title {
+    margin-top: 40px;
+    text-align:center;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    color: black;
+}
+.subtitle {
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 0;
+}
+
+.aboutUs-text {
+  margin: 0 20%;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.bio-text {
+  color: black !important;
+}
+.about-row {
+  padding: 50px;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid black;
+  width: 200px;
+}
+$icon-size: 3rem;
+$icon-color: #D8D8D8;
+$main-color: #6AC9D3;
