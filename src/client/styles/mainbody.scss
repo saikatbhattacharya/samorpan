@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,300italic,400italic,600,700,600italic,700italic);
-
+Grid{
+	background: #FFF7C0;
+}
 .show-grid {
     margin: 0 !important;
     width: 100% !important;
@@ -49,12 +51,95 @@ padding-right: 0;
     bottom: 0;
     position: absolute;
     background-color: #E78898;
-    padding: 75px;
+    padding: 30px;
     color: #FFF6C3;
+    max-width: 350px;
+    text-align: center;
 }
 .mapText{
     position: absolute;
     background-color: #E78898;
-    padding: 75px;
+    padding: 30px;
     color: #FFF6C3;
+    max-width: 350px;
+    text-align: center;
+}
+.address{
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  margin-bottom: 5%;
+  font-size: 1.5rem;
+}
+.contact-icons{
+    width: 10%;
+    display: block;
+    margin-left: 45%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.charles-dickens{
+    font-size: 3rem;
+    display: block;
+    padding: 20px;
+}
+.service-brief-check{
+    width: 15px;
+    display: inline-block;
+    margin: auto;
+}
+.service-brief-text-1{
+    margin-bottom: 10px;
+    color: black;
+    margin-left: 20px;
+}
+.many-more{
+    color: black;
+    margin: 20px;
+}
+@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans);
+
+ol {
+  counter-reset: li;
+  list-style: none;
+  *list-style: decimal; /* Keep using default numbering for IE6/7 */
+  font: 15px 'Merriweather Sans', 'lucida sans', sans-serif;
+  padding: 0;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  width: 300px;
+  margin: 0 auto;
+}
+ol ol {
+  margin-left: 2em;
+}
+.rounded-list a {
+  position: relative;
+  display: block;
+  padding: .4em .4em .4em 2em;
+  *padding: .4em;
+  margin: .5em 0;
+    background: #ddd;
+  color: #444;
+    text-decoration: none;
+  border-radius: .3em;
+    transition: all .5s ease-out; 
+}
+.rounded-list a:hover{
+  background: #eee;
+}
+.rounded-list a:before{
+  content: counter(li);
+  counter-increment: li;
+  position: absolute; 
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: #F87C93;
+  height: 2em;
+  width: 2em;
+  border: .3em solid #fff;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2em;
+  transition: all .3s ease-out;
 }
