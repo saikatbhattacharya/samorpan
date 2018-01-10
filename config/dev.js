@@ -14,7 +14,7 @@ const config = _.merge({
     contentBase: APP_DIR,
     historyApiFallback: true,
     hot: true,
-    port: 8100,
+    port: 80,
     publicPath: 'http://localhost:8100/public/',
     proxy: {
       '*': {
