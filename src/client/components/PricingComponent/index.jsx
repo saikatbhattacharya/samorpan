@@ -14,7 +14,7 @@ const PricingComponent = () => (
     <productTable />
     <div className="pricing-table">
       <div className="pricing-option">
-        <h4>Pacakge 1</h4>
+        <h4>Package 1</h4>
         <h6>For a single member with existing support of a maid and a cook.</h6>
         <hr />
         <p>
@@ -61,7 +61,7 @@ on time.</p>
       </div>
 
       <div className="pricing-option">
-        <h4>Pacakge 2</h4>
+        <h4>Package 2</h4>
         <h6>For single member without cook or maid</h6>
         <hr />
         <p>
@@ -108,7 +108,7 @@ on time.</p>
       </div>
 
       <div className="pricing-option">
-        <h4>Pacakge 3</h4>
+        <h4>Package 3</h4>
         <h6>For a two members with existing support of a maid and a cook.</h6>
         <hr />
         <p>
@@ -155,7 +155,7 @@ on time.</p>
       </div>
 
       <div className="pricing-option">
-        <h4>Pacakge 4</h4>
+        <h4>Package 4</h4>
         <h6>For two members without cook or maid</h6>
         <hr />
         <p>
