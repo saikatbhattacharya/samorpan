@@ -27,7 +27,7 @@ places and we cannot be physically present with our parents. No matter how
 much we want them to be happy and enjoy a comfortable life, we are often
 caught in the dilemma as to how to balance our corporate life with our parents
 retired life. The gap is ever widening and leads to stress on both sides. This is
-where SAMORAPN comes in the picture. Our objective is to bridge the gap. We
+where SAMORPAN comes in the picture. Our objective is to bridge the gap. We
 are remote control in your hands. Allow us to do what you want to do for your
 parents or loved ones. You are the soul, we will be the body.
 Our collective effort is to erase the concept of an old age home. We hate that.
