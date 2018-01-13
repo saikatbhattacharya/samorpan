@@ -105,22 +105,27 @@ padding-right: 0;
     background-color: #E78898;
     padding: 30px;
     color: #FFF6C3;
-    text-align: center;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
+    height: 100%;
     display: block;
 }
 .address{
   overflow-wrap: break-word;
   word-wrap: break-word;
   hyphens: auto;
-  margin-bottom: 5%;
+  margin: 0;
   font-size: 1.5rem;
 }
 .contact-icons{
     display: inline-block;
     padding: 20px;
     width: 70px;
+}
+.contacts-row{
+    padding-top: 40px;
+    background-color: #E78898;
 }
 .charles-dickens{
     font-size: 3rem;
@@ -141,49 +146,36 @@ padding-right: 0;
     color: black;
     margin: 20px;
 }
-@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans);
-
-ol {
-  counter-reset: li;
-  list-style: none;
-  *list-style: decimal; /* Keep using default numbering for IE6/7 */
-  font: 15px 'Merriweather Sans', 'lucida sans', sans-serif;
-  padding: 0;
-  text-shadow: 0 1px 0 rgba(255,255,255,.5);
-  width: 300px;
-  margin: 0 auto;
+.contactForm {
+    padding: 20px;
+    color: #FFF6C3;
+    margin: 0 !important;
 }
-ol ol {
-  margin-left: 2em;
+.contactForm input{
+    margin: 20px;
+    width: 90%;
 }
-.rounded-list a {
-  position: relative;
-  display: block;
-  padding: .4em .4em .4em 2em;
-  *padding: .4em;
-  margin: .5em 0;
-    background: #ddd;
-  color: #444;
-    text-decoration: none;
-  border-radius: .3em;
-    transition: all .5s ease-out; 
+.contactForm .formSubmit{
+    margin: 0 20px 20px 20px;
+    width: 90%;
 }
-.rounded-list a:hover{
-  background: #eee;
+.overLay{
+    position: absolute;
+    margin-left: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #E78898;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: opacity .35s ease;
 }
-.rounded-list a:before{
-  content: counter(li);
-  counter-increment: li;
-  position: absolute; 
-  left: -1.3em;
-  top: 50%;
-  margin-top: -1.3em;
-  background: #F87C93;
-  height: 2em;
-  width: 2em;
-  border: .3em solid #fff;
-  text-align: center;
-  font-weight: bold;
-  border-radius: 2em;
-  transition: all .3s ease-out;
+.overLay:hover{
+    opacity: 1;
+}
+.knowmore{
+    margin-left: auto;
+    margin-top: 95px;
 }

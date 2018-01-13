@@ -29,6 +29,7 @@
     "express": "^4.15.3",
     "image-webpack-loader": "^3.4.2",
     "lodash": "^4.17.4",
+    "nodemailer": "^4.4.1",
     "pm2": "^2.6.1",
     "pug": "^2.0.0-rc.2",
     "react-bootstrap": "^0.31.5",

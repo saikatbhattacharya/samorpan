@@ -11,6 +11,8 @@ import healthCare from 'images/health-care.png';
 import hospital from 'images/hospital.png';
 import maid from 'images/maid.png';
 import stretcher from 'images/stretcher.png';
+import arrow from 'images/right-arrow.png';
+import Contactform from './contactForm';
 
 
 require('styles/mainbody.scss');
@@ -71,6 +73,12 @@ const MainBody = () => (
           <p>
           Caring you in hospital
           </p>
+          <div className="overLay">
+            <div className="knowmore">
+              <p>Know More</p>
+              <Image src={arrow} />
+            </div>
+          </div>
         </div>
       </Col>
       <Col xs={12} md={3} className="serviceBody">
@@ -78,8 +86,14 @@ const MainBody = () => (
           <Image src={stretcher} alt="healthcare" />
           <h2> Surgical-care package</h2>
           <p>
-          Assisting you during a surgery - tailored as per your need
+          Assisting you during a surgery - tailored for you
           </p>
+          <div className="overLay">
+            <div className="knowmore">
+              <p>Know More</p>
+              <Image src={arrow} />
+            </div>
+          </div>
         </div>
       </Col>
       <Col xs={12} md={3} className="serviceBody">
@@ -89,6 +103,12 @@ const MainBody = () => (
           <p>
           Caring you in post-hospitalization days
           </p>
+          <div className="overLay">
+            <div className="knowmore">
+              <p>Know More</p>
+              <Image src={arrow} />
+            </div>
+          </div>
         </div>
       </Col>
       <Col xs={12} md={3} className="serviceBody">
@@ -98,26 +118,40 @@ const MainBody = () => (
           <p>
           Helping you in all your domestic needs
           </p>
+          <div className="overLay">
+            <div className="knowmore">
+              <p>Know More</p>
+              <Image src={arrow} />
+            </div>
+          </div>
         </div>
       </Col>
     </Row>
     <Row className="show-grid contacts-row">
-      <Col xs={12} md={12}>
+      <h2 className="aboutUsHeader"> Contact Us </h2>
+      <hr />
+      <Col xs={12} md={6}>
         <div className="mapText">
           <Image className="contact-icons" src={location} />
           <span className="address">
             6/1, J.N.Das Path, City Centre, Durgapur: 713216, West Bengal, India.
           </span>
+          <br />
           <Image className="contact-icons" src={mobile} />
           <span className="address">
             +91 9748124266,
             +91 96096 00090
           </span>
+          <br />
           <Image className="contact-icons" src={email} />
           <span className="address">
             contact@samorpan.com
           </span>
+          <br />
         </div>
+      </Col>
+      <Col xs={12} md={6}>
+        <Contactform />
       </Col>
     </Row>
   </Grid>
