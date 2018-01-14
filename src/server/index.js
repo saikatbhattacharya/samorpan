@@ -3,6 +3,16 @@ const path = require('path');
 const requestId = require('request-id/express');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
+const nodemailer = require('nodemailer');
+
+const transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: 'saikat.iitmadras@gmail.com',
+    pass: 'Apr@9940',
+  },
+});
+
 
 const logger = require('./helpers/logger');
 
@@ -49,6 +59,25 @@ app.post('/authenticate', (req, res) => {
     return res.send({ status: 'authenticated', statusCode: 200 });
   }
   return res.send({ status: 'failed', statusCode: 503 });
+});
+
+app.post('/sendMail', (req, res) => {
+  const mailOptions = {
+    from: 'bharanisrinivas91@gmail.com',
+    to: req.body.to,
+    subject: req.body.subject,
+    text: req.body.text,
+  };
+  console.log('** ', mailOptions);
+  transporter.sendMail(mailOptions, (error, info) => {
+    if (error) {
+      console.log(error);
+      res.send({ error });
+    } else {
+      console.log('Email sent: ', info.response);
+      res.send({ message: 'success' });
+    }
+  });
 });
 
 app.listen(PORT, (error) => {

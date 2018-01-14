@@ -32,6 +32,7 @@ padding-left: 0;
 .captionLine{
     position: relative;
     font-size: larger;
+    color: bisque;
 }
 .headerClass{
     position: absolute;
@@ -39,6 +40,11 @@ padding-left: 0;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+.headerClass h2{
+    text-transform: uppercase;
+    font-size: xx-large;
+    border-bottom: #E78898 1px solid;
 }
 .services{
     text-align: center;
@@ -105,7 +111,7 @@ padding-right: 0;
     background-color: #E78898;
     padding: 30px;
     color: #FFF6C3;
-    text-align: left;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     height: 100%;

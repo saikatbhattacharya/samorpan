@@ -7,7 +7,10 @@ import { AppContainer } from 'react-hot-loader';
 import createBrowserHistory from 'history/createBrowserHistory';
 import ApplicationContainer from 'containers/AppContainer';
 import AboutUs from 'containers/aboutUs';
-import PricingPage from 'containers/PricingPage';
+import DomesticPricingPage from 'containers/DomesticPricingPage';
+import HospitalPackage from 'containers/HospitalPackage';
+import ExtraCarePackage from 'containers/ExtraCarePackage';
+import SurgicalCarePackage from 'containers/SurgicalCare';
 import configureStore from 'store';
 
 require('es6-promise').polyfill();
@@ -25,7 +28,10 @@ const renderApp = () => {
           <Switch>
             <Route exact path="/" component={ApplicationContainer} />
             <Route path="/about" component={AboutUs} />
-            <Route path="/packages" component={PricingPage} />
+            <Route path="/packages-domestic" component={DomesticPricingPage} />
+            <Route path="/packages-hospital" component={HospitalPackage} />
+            <Route path="/packages-extracare" component={ExtraCarePackage} />
+            <Route path="/packages-surgical" component={SurgicalCarePackage} />
           </Switch>
         </Router >
       </Provider>

@@ -12,7 +12,7 @@ import hospital from 'images/hospital.png';
 import maid from 'images/maid.png';
 import stretcher from 'images/stretcher.png';
 import arrow from 'images/right-arrow.png';
-import Contactform from './contactForm';
+// import Contactform from './contactForm';
 
 
 require('styles/mainbody.scss');
@@ -25,6 +25,7 @@ const MainBody = () => (
         <img id="topRightPic" src={topPic} alt="topPic" />
         <div className="headerClass">
           <img id="mainLogo" src={logo} alt="logo" />
+          <h2> Samorpan </h2>
           <h6 className="captionLine"> Crafted for Dusk of Life </h6>
         </div>
       </Col>
@@ -76,7 +77,9 @@ const MainBody = () => (
           <div className="overLay">
             <div className="knowmore">
               <p>Know More</p>
-              <Image src={arrow} />
+              <a href="/packages-hospital">
+                <Image src={arrow} />
+              </a>
             </div>
           </div>
         </div>
@@ -91,7 +94,9 @@ const MainBody = () => (
           <div className="overLay">
             <div className="knowmore">
               <p>Know More</p>
-              <Image src={arrow} />
+              <a href="/packages-surgical">
+                <Image src={arrow} />
+              </a>
             </div>
           </div>
         </div>
@@ -106,7 +111,9 @@ const MainBody = () => (
           <div className="overLay">
             <div className="knowmore">
               <p>Know More</p>
-              <Image src={arrow} />
+              <a href="/packages-extracare">
+                <Image src={arrow} />
+              </a>
             </div>
           </div>
         </div>
@@ -121,16 +128,16 @@ const MainBody = () => (
           <div className="overLay">
             <div className="knowmore">
               <p>Know More</p>
-              <Image src={arrow} />
+              <a href="/packages-domestic">
+                <Image src={arrow} />
+              </a>
             </div>
           </div>
         </div>
       </Col>
     </Row>
-    <Row className="show-grid contacts-row">
-      <h2 className="aboutUsHeader"> Contact Us </h2>
-      <hr />
-      <Col xs={12} md={6}>
+    <Row id="contactus" className="show-grid contacts-row">
+      <Col xs={12} md={12}>
         <div className="mapText">
           <Image className="contact-icons" src={location} />
           <span className="address">
@@ -149,9 +156,6 @@ const MainBody = () => (
           </span>
           <br />
         </div>
-      </Col>
-      <Col xs={12} md={6}>
-        <Contactform />
       </Col>
     </Row>
   </Grid>

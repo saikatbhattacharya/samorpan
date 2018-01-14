@@ -1,27 +1,23 @@
 import React from 'react';
-import Topbar from '../Topbar';
-import FootBar from '../Footbar';
-import productTable from './productTable';
+import Topbar from '../../Topbar';
+import FootBar from '../../Footbar';
 
 require('styles/pricing.scss');
 
 const PricingComponent = () => (
   <div>
     <Topbar />
-    <h4 className="demo-title">Subscriptions</h4>
+    <h4 className="demo-title">Domestic Packages</h4>
     <hr />
-    <h6 className="demo-subtitle">We offer multiple packages tailored just as per your need</h6>
-    <productTable />
+    <h6 className="demo-subtitle">
+      If you are alone and you have a cook and maid who are assisting you for a long time, we
+understand that you do not wish to part ways with them.
+    </h6>
     <div className="pricing-table">
       <div className="pricing-option">
         <h4>Package 1</h4>
         <h6>For a single member with existing support of a maid and a cook.</h6>
         <hr />
-        <p>
-          4 days cook
-        </p>
-        <p> 4 days maid </p>
-        <p>8 days cleaning of toilets, rooms terrace, etc</p>
         <p>8 hours of body massage (Male to male, female to female).</p>
         <p>2 hours of physiotherapy</p>
         <p>Biweekly dietician charts</p>
@@ -42,19 +38,21 @@ const PricingComponent = () => (
         <p>Doctors appointments, follow-up, collecting reports, taking doctors feedback on
 reports, getting you your required medicines and ensuring you have your medicines
 on time.</p>
+        <p> 4 days of maid and cook, in case your regular one needs a break. </p>
+        <p>8 days deep cleaning of toilets, rooms terrace, etc</p>
         <hr />
+        <h6>* Refer us to five people, we serve you one month absolutely free of cost,
+          if they avail our services.
+        </h6>
         <div className="price">
           <div className="front">
             <span className="price">
               6000 <b>/month</b>
             </span>
-            <span className="price">
-              15000 <b>/quarter</b>
-            </span>
           </div>
           <div className="back">
-            <a href="abc.com" className="button">
-              Buy now
+            <a href="/#contactus" className="button">
+              Contact Us
             </a>
           </div>
         </div>
@@ -64,11 +62,6 @@ on time.</p>
         <h4>Package 2</h4>
         <h6>For single member without cook or maid</h6>
         <hr />
-        <p>
-          Cook
-        </p>
-        <p> Maid </p>
-        <p>8 days cleaning of toilets, rooms terrace, etc</p>
         <p>8 hours of body massage (Male to male, female to female).</p>
         <p>2 hours of physiotherapy</p>
         <p>Biweekly dietician charts</p>
@@ -89,19 +82,24 @@ on time.</p>
         <p>Doctors appointments, follow-up, collecting reports, taking doctors feedback on
 reports, getting you your required medicines and ensuring you have your medicines
 on time.</p>
+        <p>
+          Maid, to assist you with laundry, cleaning and utensils.
+        </p>
+        <p> Cook to prepare food or you . </p>
+        <p>8 days deep cleaning of toilets, rooms terrace, etc</p>
         <hr />
+        <h6>* Refer us to five people, we serve you one month absolutely free of cost,
+          if they avail our services.
+        </h6>
         <div className="price">
           <div className="front">
             <span className="price">
-              7500 <b>/month</b>
-            </span>
-            <span className="price">
-              21000 <b>/quarter</b>
+              8000 <b>/month</b>
             </span>
           </div>
           <div className="back">
-            <a href="abc.com" className="button">
-              Buy now
+            <a href="/#contactus" className="button">
+              Contact Us
             </a>
           </div>
         </div>
@@ -111,11 +109,6 @@ on time.</p>
         <h4>Package 3</h4>
         <h6>For a two members with existing support of a maid and a cook.</h6>
         <hr />
-        <p>
-          4 days cook
-        </p>
-        <p> 4 days maid </p>
-        <p>8 days cleaning of toilets, rooms terrace, etc</p>
         <p>8 hours of body massage (Male to male, female to female).</p>
         <p>2 hours of physiotherapy</p>
         <p>Biweekly dietician charts</p>
@@ -136,19 +129,21 @@ on time.</p>
         <p>Doctors appointments, follow-up, collecting reports, taking doctors feedback on
 reports, getting you your required medicines and ensuring you have your medicines
 on time.</p>
+        <p> 4 days of maid and cook in case your regular one needs a break. </p>
+        <p>8 days deep cleaning of toilets, rooms terrace, etc</p>
         <hr />
+        <h6>* Refer us to five people, we serve you one month absolutely free of cost,
+          if they avail our services.
+        </h6>
         <div className="price">
           <div className="front">
             <span className="price">
-              7500 <b>/month</b>
-            </span>
-            <span className="price">
-              21000 <b>/quarter</b>
+              8500 <b>/month</b>
             </span>
           </div>
           <div className="back">
-            <a href="abc.com" className="button">
-              Buy now
+            <a href="/#contactus" className="button">
+              Contact Us
             </a>
           </div>
         </div>
@@ -158,11 +153,6 @@ on time.</p>
         <h4>Package 4</h4>
         <h6>For two members without cook or maid</h6>
         <hr />
-        <p>
-          Cook
-        </p>
-        <p> Maid </p>
-        <p>8 days cleaning of toilets, rooms terrace, etc</p>
         <p>8 hours of body massage (Male to male, female to female).</p>
         <p>2 hours of physiotherapy</p>
         <p>Biweekly dietician charts</p>
@@ -183,19 +173,24 @@ on time.</p>
         <p>Doctors appointments, follow-up, collecting reports, taking doctors feedback on
 reports, getting you your required medicines and ensuring you have your medicines
 on time.</p>
+        <p>
+          Maid, to assist you with laundry, cleaning and utensils.
+        </p>
+        <p> Cook to prepare food or you . </p>
+        <p>8 days deep cleaning of toilets, rooms terrace, etc</p>
         <hr />
+        <h6>* Refer us to five people, we serve you one month absolutely free of cost,
+          if they avail our services.
+        </h6>
         <div className="price">
           <div className="front">
             <span className="price">
               10000 <b>/month</b>
             </span>
-            <span className="price">
-              27500 <b>/quarter</b>
-            </span>
           </div>
           <div className="back">
-            <a href="abc.com" className="button">
-              Buy now
+            <a href="/#contactus" className="button">
+              Contact Us
             </a>
           </div>
         </div>
