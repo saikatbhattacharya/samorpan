@@ -17,9 +17,9 @@ const TopHeader = () => (
     </Navbar.Header>
     <Navbar.Collapse>
       <Nav pullLeft>
-        <NavItem eventKey={1} href="/">Home</NavItem>
-        <NavItem eventKey={2} href="/about">About</NavItem>
-        <NavItem eventKey={3} href="/packages">Subscribe</NavItem>
+        <NavItem eventKey={1} href="/#">Home</NavItem>
+        <NavItem eventKey={2} href="/#aboutus">About</NavItem>
+        <NavItem eventKey={3} href="/#services">Subscribe</NavItem>
       </Nav>
     </Navbar.Collapse>
   </Navbar>

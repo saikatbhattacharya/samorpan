@@ -14,7 +14,7 @@ const PricingComponent = () => (
       To address this issue,
       we tried to tailor make our package in a way which can take care of the situation.
     </h6>
-    <div className="pricing-table">
+    <div className="pricing-table-1">
       <div className="pricing-option">
         <h4>Package Details</h4>
         <hr />

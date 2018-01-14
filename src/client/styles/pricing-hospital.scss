@@ -24,16 +24,16 @@ body {
 
 $icon-size: 3rem;
 $icon-color: #D8D8D8;
-$main-color: #6AC9D3;
+$main-color: #E78898;
 
 
-.pricing-table {
+.pricing-table-1 {
     display: table;
     .pricing-option {
         width: 80% !important;
         margin: 0 10% 10% 10%;
         background:white;
-        padding: 2%;
+        padding: 10%;
         text-align: center;
         transition: all .3s ease-in-out;
         &:nth-child(even) {
@@ -138,7 +138,7 @@ $main-color: #6AC9D3;
         }
     }
 }
-.knowMores{
+.contactusButton{
   margin: auto;
   display: block;
   width: 10%;

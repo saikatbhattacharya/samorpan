@@ -14,7 +14,7 @@ const PricingComponent = () => (
 attempt to reduce your hospital related stress and focus on taking care of your loved
 ones without being worked up yourself.
     </h6>
-    <div className="pricing-table">
+    <div className="pricing-table-1">
       <div className="pricing-option">
         <h4>Package Details</h4>
         <hr />

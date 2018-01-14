@@ -23,7 +23,7 @@ body {
 
 $icon-size: 3rem;
 $icon-color: #D8D8D8;
-$main-color: #6AC9D3;
+$main-color: #E78898;
 
 
 .pricing-table {
@@ -33,7 +33,7 @@ $main-color: #6AC9D3;
         width: 23%;
         background:white;
         float: left;
-        padding: 2%;
+        padding: 10%;
         text-align: center;
         transition: all .3s ease-in-out;
         &:nth-child(even) {

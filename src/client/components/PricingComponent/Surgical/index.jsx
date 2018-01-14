@@ -20,7 +20,7 @@ Special assistance packages will be created according to patient and family of p
 We cannot generalize on this, but we are there for you. Talk to us,
 that is always free and we will take care of the rest.
     </h6>
-    <Button className="knowMores" href="/#contactus" bsStyle="primary">Contact Us</Button>
+    <Button className="contactusButton" href="/#contactus" bsStyle="primary">Contact Us</Button>
     <FootBar />
   </div>
 );

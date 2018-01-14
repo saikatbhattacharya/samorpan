@@ -30,7 +30,7 @@ const MainBody = () => (
         </div>
       </Col>
     </Row>
-    <Row className="show-grid aboutus-row">
+    <Row id="aboutus" className="show-grid aboutus-row">
       <Col xs={12} md={12} className="aboutusSection">
         <h2 className="aboutUsHeader"> Our Objectives </h2>
         <hr />
@@ -62,7 +62,7 @@ const MainBody = () => (
         <Button className="knowMores" href="/about" bsStyle="primary">Know More</Button>
       </Col>
     </Row>
-    <Row className="show-grid aboutus-row">
+    <Row id="services" className="show-grid aboutus-row">
       <Col xs={12} md={12} className="aboutusSection">
         <h2 className="aboutUsHeader"> Services </h2>
         <hr />
