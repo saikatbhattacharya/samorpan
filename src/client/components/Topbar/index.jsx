@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, NavItem, Image } from 'react-bootstrap';
+import { Navbar, Nav, Image } from 'react-bootstrap';
 // import SearchBox from './SearchBox';
 
 require('styles/app.scss');
@@ -11,16 +11,14 @@ const TopHeader = () => (
   <Navbar className="header-container" collapseOnSelect>
     <Navbar.Header>
       <Navbar.Brand>
-        <a href="/"><Image className="nav-brand-img" src={Logo} rounded /></a>
+        <a href="/"><Image className="nav-brand-img" src={Logo} rounded />
+          <span className="headerText">SAMORPAN</span>
+        </a>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Collapse>
-      <Nav pullLeft>
-        <NavItem eventKey={1} href="/#">Home</NavItem>
-        <NavItem eventKey={2} href="/#aboutus">About</NavItem>
-        <NavItem eventKey={3} href="/#services">Subscribe</NavItem>
-      </Nav>
+      <Nav pullLeft />
     </Navbar.Collapse>
   </Navbar>
 );

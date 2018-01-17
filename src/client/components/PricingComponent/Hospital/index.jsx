@@ -43,7 +43,7 @@ needs.
               <p>Without food and Attendant:</p> 1500 <b>/day</b>
             </span>
             <span className="price">
-              <p>Without food and Attendant:</p> 2000 <b>/day</b>
+              <p>With food and Attendant:</p> 2000 <b>/day</b>
             </span>
           </div>
           <div className="back">

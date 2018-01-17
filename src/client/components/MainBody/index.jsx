@@ -12,6 +12,7 @@ import hospital from 'images/hospital.png';
 import maid from 'images/maid.png';
 import stretcher from 'images/stretcher.png';
 import arrow from 'images/right-arrow.png';
+import international from 'images/businessman.png';
 // import Contactform from './contactForm';
 
 
@@ -67,41 +68,24 @@ const MainBody = () => (
         <h2 className="aboutUsHeader"> Services </h2>
         <hr />
       </Col>
-      <Col xs={12} md={3} className="serviceBody">
+      <Col xs={12} md={4} className="serviceBody">
         <div className="services">
-          <Image src={hospital} alt="healthcare" />
-          <h2> Hospital-care package</h2>
+          <Image src={maid} alt="healthcare" />
+          <h2> Domestic package</h2>
           <p>
-          Caring you in hospital
+          Helping you in all your domestic needs
           </p>
           <div className="overLay">
             <div className="knowmore">
               <p>Know More</p>
-              <a href="/packages-hospital">
+              <a href="/packages-domestic">
                 <Image src={arrow} />
               </a>
             </div>
           </div>
         </div>
       </Col>
-      <Col xs={12} md={3} className="serviceBody">
-        <div className="services">
-          <Image src={stretcher} alt="healthcare" />
-          <h2> Surgical-care package</h2>
-          <p>
-          Assisting you during a surgery - tailored for you
-          </p>
-          <div className="overLay">
-            <div className="knowmore">
-              <p>Know More</p>
-              <a href="/packages-surgical">
-                <Image src={arrow} />
-              </a>
-            </div>
-          </div>
-        </div>
-      </Col>
-      <Col xs={12} md={3} className="serviceBody">
+      <Col xs={12} md={4} className="serviceBody">
         <div className="services">
           <Image src={healthCare} alt="healthcare" />
           <h2> Extra-care package</h2>
@@ -118,17 +102,51 @@ const MainBody = () => (
           </div>
         </div>
       </Col>
-      <Col xs={12} md={3} className="serviceBody">
+      <Col xs={12} md={4} className="serviceBody">
         <div className="services">
-          <Image src={maid} alt="healthcare" />
-          <h2> Domestic package</h2>
+          <Image src={hospital} alt="healthcare" />
+          <h2> Hospital-care package</h2>
           <p>
-          Helping you in all your domestic needs
+          Caring you in hospital
           </p>
           <div className="overLay">
             <div className="knowmore">
               <p>Know More</p>
-              <a href="/packages-domestic">
+              <a href="/packages-hospital">
+                <Image src={arrow} />
+              </a>
+            </div>
+          </div>
+        </div>
+      </Col>
+      <Col xs={12} md={6} className="serviceBody">
+        <div className="services">
+          <Image src={international} alt="healthcare" />
+          <h2> International Guest package</h2>
+          <p>
+          Medical solution for international guests in India
+          </p>
+          <div className="overLay">
+            <div className="knowmore">
+              <p>Know More</p>
+              <a href="/packages-international">
+                <Image src={arrow} />
+              </a>
+            </div>
+          </div>
+        </div>
+      </Col>
+      <Col xs={12} md={6} className="serviceBody">
+        <div className="services">
+          <Image src={stretcher} alt="healthcare" />
+          <h2> Surgical-care package</h2>
+          <p>
+          Assisting you during a surgery - tailored for you
+          </p>
+          <div className="overLay">
+            <div className="knowmore">
+              <p>Know More</p>
+              <a href="/packages-surgical">
                 <Image src={arrow} />
               </a>
             </div>
