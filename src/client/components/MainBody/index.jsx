@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Row, Col, Button, Image } from 'react-bootstrap';
+import { Grid, Row, Col, Image } from 'react-bootstrap';
 import logo from 'images/logo.png';
 // import aboutus from 'images/about-us.jpg';
 // import map from 'images/map2.png';
@@ -13,6 +13,8 @@ import maid from 'images/maid.png';
 import stretcher from 'images/stretcher.png';
 import arrow from 'images/right-arrow.png';
 import international from 'images/businessman.png';
+
+import Button from '../Utils/Button';
 // import Contactform from './contactForm';
 
 
@@ -60,7 +62,10 @@ const MainBody = () => (
         to have a life of dignity in the comfort of their own abode.
         We would like to offer our services to you to make this a reality.
         </p>
-        <Button className="knowMores" href="/about" bsStyle="primary">Know More</Button>
+        <Button
+          link="/about"
+          label="Know More"
+        />
       </Col>
     </Row>
     <Row id="services" className="show-grid aboutus-row">
@@ -119,7 +124,7 @@ const MainBody = () => (
           </div>
         </div>
       </Col>
-      <Col xs={12} md={6} className="serviceBody">
+      <Col xs={12} md={4} mdOffset={2} className="serviceBody">
         <div className="services">
           <Image src={international} alt="healthcare" />
           <h2> International Guest package</h2>
@@ -136,7 +141,7 @@ const MainBody = () => (
           </div>
         </div>
       </Col>
-      <Col xs={12} md={6} className="serviceBody">
+      <Col xs={12} md={4} className="serviceBody">
         <div className="services">
           <Image src={stretcher} alt="healthcare" />
           <h2> Surgical-care package</h2>
@@ -153,6 +158,9 @@ const MainBody = () => (
           </div>
         </div>
       </Col>
+      <h6 className="serviceFooter"> #We are now operating in Durgapur,
+        West Bengal region only
+      </h6>
     </Row>
     <Row id="contactus" className="show-grid contacts-row">
       <Col xs={12} md={12}>
