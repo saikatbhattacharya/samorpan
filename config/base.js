@@ -1,5 +1,8 @@
 const path = require('path');
+const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const CompressionPlugin = require('compression-webpack-plugin');
 
 const BUILD_DIR = path.resolve(__dirname, '../src/server/dist/public');
 const APP_DIR = path.resolve(__dirname, '../src/client');
@@ -62,5 +65,15 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin('bundle.css'),
+    new UglifyJsPlugin(),
+    new webpack.optimize.UglifyJsPlugin(),
+    new webpack.optimize.AggressiveMergingPlugin(),
+    new CompressionPlugin({
+      asset: "[path].gz[query]",
+      algorithm: "gzip",
+      test: /\.js$|\.css$|\.html$/,
+      threshold: 10240,
+      minRatio: 0.8
+    })
   ],
 };

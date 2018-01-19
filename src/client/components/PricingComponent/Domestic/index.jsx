@@ -9,14 +9,12 @@ const PricingComponent = () => (
     <Topbar />
     <h4 className="demo-title">Domestic Packages</h4>
     <hr />
-    <h6 className="demo-subtitle">
-      If you are alone and you have a cook and maid who are assisting you for a long time, we
-understand that you do not wish to part ways with them.
-    </h6>
     <div className="pricing-table">
       <div className="pricing-option">
         <h4>Domestic-Package 1</h4>
-        <h6>For a single member with existing support of a maid and a cook.</h6>
+        <h6>If you are alone and you have a cook and maid who are assisting you for a long time, we
+understand that you do not wish to part ways with them.
+        </h6>
         <hr />
         <p>Weekly twice blood pressure monitoring.</p>
         <p>Weekly once and a total of 6 blood sugar monitoring.</p>
@@ -41,7 +39,8 @@ on time.</p>
         <p> 4 days of maid and cook, in case your regular one needs a break. </p>
         <hr />
         <h6>* Refer us to five people, we serve you one month absolutely free of cost,
-          if they avail our services.
+          if they avail our services.<br />
+          #Contact us for weekly, quarterly and yearly packages.
         </h6>
         <div className="price">
           <div className="front">
@@ -85,7 +84,8 @@ on time.</p>
         <p> Cook to prepare food or you</p>
         <hr />
         <h6>* Refer us to five people, we serve you one month absolutely free of cost,
-          if they avail our services.
+          if they avail our services.<br />
+          #Contact us for weekly, quarterly and yearly packages.
         </h6>
         <div className="price">
           <div className="front">
@@ -104,7 +104,7 @@ on time.</p>
       <div className="pricing-option">
         <h4>Domestic-Package 3</h4>
         <h6>If you are a family of two and you have a cook and maid who are assisting you for a
-long time, we understand that you DONOT WISH to part ways with them.
+long time, we understand that you donot wish to part ways with them.
         </h6>
         <hr />
         <p>Weekly twice blood pressure monitoring.</p>
@@ -130,7 +130,8 @@ on time.</p>
         <p> 4 days of maid and cook, in case your regular one needs a break. </p>
         <hr />
         <h6>* Refer us to five people, we serve you one month absolutely free of cost,
-          if they avail our services.
+          if they avail our services.<br />
+          #Contact us for weekly, quarterly and yearly packages.
         </h6>
         <div className="price">
           <div className="front">
@@ -175,7 +176,8 @@ on time.</p>
         <p> Cook to prepare food or you</p>
         <hr />
         <h6>* Refer us to five people, we serve you one month absolutely free of cost,
-          if they avail our services.
+          if they avail our services.<br />
+          #Contact us for weekly, quarterly and yearly packages.
         </h6>
         <div className="price">
           <div className="front">

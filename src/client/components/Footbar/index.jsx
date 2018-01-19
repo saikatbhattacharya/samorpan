@@ -12,6 +12,16 @@ const Footbar = () => (
         <i className="fa fa-twitter fa-3x fa-fw" />
       </a>
     </div>
+    <div className="counter" align="right">
+      <a href="http://www.free-website-hit-counter.com">
+        <img
+          alt="counter"
+          src="http://www.free-website-hit-counter.com/c.php?d=4&id=112033&s=16"
+          border="0"
+          title="Counter"
+        />
+      </a>
+    </div>
   </div>
 );
 export default Footbar;

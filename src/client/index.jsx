@@ -12,6 +12,7 @@ import HospitalPackage from 'containers/HospitalPackage';
 import ExtraCarePackage from 'containers/ExtraCarePackage';
 import SurgicalCarePackage from 'containers/SurgicalCare';
 import InternationalPackage from 'containers/InternationalPackage';
+import ProductTable from 'components/PricingComponent/productTable';
 import configureStore from 'store';
 
 require('es6-promise').polyfill();
@@ -34,6 +35,7 @@ const renderApp = () => {
             <Route path="/packages-extracare" component={ExtraCarePackage} />
             <Route path="/packages-surgical" component={SurgicalCarePackage} />
             <Route path="/packages-international" component={InternationalPackage} />
+            <Route path="/custom-packages" component={ProductTable} />
           </Switch>
         </Router >
       </Provider>

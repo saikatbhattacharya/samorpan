@@ -9,10 +9,17 @@
 
 .container{
   //margin-top: 15px;
-  color: #fff;
+  color: black;
   width: 100%;
   padding-top: 18px;
-  
+}
+.footer .container{
+  width: 25%;
+  margin: 0;
+  float: left;
+  display: block;
+  padding-top: 18px;
+  color: white;
 }
 
 .fa-twitter {
@@ -21,30 +28,6 @@
 
 .fa-facebook {
     color: #3B5998;
-}
-
-.fa-youtube-play {
-    color: #e52d27;
-}
-
-.fa-rss {
-    color: #FF6600;
-}
-
-.fa-vine {
-    color: #00a478;
-}
-
-.fa-flickr {
-    color: #ff0084;
-}
-
-.fa-twitch {
-    color: #6441A5;
-}
-
-.fa-linkedin {
-    color: #007bb6;
 }
 
 .fa {
@@ -60,4 +43,11 @@
 }
 .fa-3x {
     font-size: 2em;
+}
+.counter{
+    float: right;
+    width: 50%;
+    display: block;
+    padding-top: 18px;
+    padding-right: 20px;
 }
