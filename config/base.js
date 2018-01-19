@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 const BUILD_DIR = path.resolve(__dirname, '../src/server/dist/public');
 const APP_DIR = path.resolve(__dirname, '../src/client');
@@ -64,6 +65,7 @@ module.exports = {
     ],
   },
   plugins: [
+    new BundleAnalyzerPlugin(),
     new ExtractTextPlugin('bundle.css'),
     new UglifyJsPlugin(),
     new webpack.optimize.UglifyJsPlugin(),
