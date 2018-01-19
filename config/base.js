@@ -67,12 +67,7 @@ module.exports = {
   plugins: [
     new BundleAnalyzerPlugin(),
     new ExtractTextPlugin('bundle.css'),
-    new UglifyJsPlugin({
-      minimize: true,
-      compress: {
-        warnings: false
-      }
-    }),
+    new UglifyJsPlugin(),
     new webpack.optimize.UglifyJsPlugin(),
     new webpack.optimize.AggressiveMergingPlugin(),
     new CompressionPlugin({
@@ -80,7 +75,7 @@ module.exports = {
       algorithm: "gzip",
       test: /\.js$|\.css$|\.html$/,
       threshold: 10240,
-      minRatio: 0.8
+      minRatio: 0.1
     })
   ],
 };
