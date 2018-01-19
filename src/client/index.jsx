@@ -1,6 +1,6 @@
 /* eslint global-require: 0 */
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 import { Router, Route, Switch } from 'react-router';
 import { Provider } from 'react-redux';
 import { AppContainer } from 'react-hot-loader';
@@ -23,7 +23,7 @@ const initialStoreState = {};
 const store = configureStore(initialStoreState);
 
 const renderApp = () => {
-  ReactDOM.render(
+  render(
     <AppContainer>
       <Provider store={store}>
         <Router history={history} >
