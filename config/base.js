@@ -67,7 +67,12 @@ module.exports = {
   plugins: [
     new BundleAnalyzerPlugin(),
     new ExtractTextPlugin('bundle.css'),
-    new UglifyJsPlugin(),
+    new UglifyJsPlugin({
+      minimize: true,
+      compress: {
+        warnings: false
+      }
+    }),
     new webpack.optimize.UglifyJsPlugin(),
     new webpack.optimize.AggressiveMergingPlugin(),
     new CompressionPlugin({
